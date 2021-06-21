@@ -12,7 +12,7 @@ function openLinkedin() {
 }
 
 function openWebsite() {
-    window.open('https://dheerajgogoi.herokuapp.com');
+    window.open('https://dheerajgogoi.netlify.app/');
 }
 
 function AboutMe() {
@@ -52,7 +52,7 @@ function AboutMe() {
                         <div className='row my-3'>
                             <div className='col'>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Birthday :</span> 30&apos;th January, 2003</p>
-                                <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Website :</span> <span onClick={openWebsite} style={{cursor: 'pointer'}}>dheerajgogoi.herokuapp.com</span></p>
+                                <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Website :</span> <span onClick={openWebsite} style={{cursor: 'pointer'}}>dheerajgogoi.netlify.app</span></p>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Contact :</span> +91 7099485845</p>
                             </div>
                             <div className='col'>

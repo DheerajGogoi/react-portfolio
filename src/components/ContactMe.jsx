@@ -85,7 +85,7 @@ function ContactMe(){
     
                                         <div className='row'>
                                             <div className='col' style={{maxWidth: '20%', padding: '0'}}><span><i className="far fa-address-card info-icons"></i></span></div>
-                                            <div className='col' style={{fontFamily: 'Quicksand', textAlign: 'right'}}>dheerajgogoi.herokuapp.com</div>
+                                            <div className='col' style={{fontFamily: 'Quicksand', textAlign: 'right'}}>dheerajgogoi.netlify.app</div>
                                         </div>
     
                                         <br />
