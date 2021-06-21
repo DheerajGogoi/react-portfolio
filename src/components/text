@@ -1,0 +1,21 @@
+<form className='contact-form' id='form' autoComplete="off">
+                                    <div className="form-group">
+                                        <input type="text " className="form-control rounded-0" id="userName" name='from_name' id='from_name' placeholder="Name" required />
+
+                                        {/* <TextField type='text'  id="from_name" label="Name" variant="outlined" /> */}
+                                        {/* onChange={this.handleChange.bind(this)} value={this.state.name} */}
+                                    </div>
+    
+                                    <div className="form-group">
+                                        <input type="email" className="form-control rounded-0" id="userEmail" name='from_email' id='from_email' placeholder="Email" required />
+                                    </div>
+                                       
+                                        
+                                    <div className="form-group">
+                                        <textarea className="form-control rounded-0" id="userMsg" rows="3" name='from_message' id='from_message' placeholder="Type your message here" required></textarea>
+                                    </div>
+
+                                    {/* <input type="submit" id="button" value="Send Email" onClick={click} /> */}
+    
+                                    <button className="btn btn-dark" id='button' type='submit' onClick={click} style={{width: '100%', background: 'black', color: 'orange', paddingTop: '2%', paddingBottom: '2%', fontFamily: 'Quicksand'}}>{msg}</button>
+                                </form>
