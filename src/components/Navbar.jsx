@@ -22,14 +22,14 @@ function Navbar() {
                     <li className="nav-item">
                         <a className="nav-link" href="#projects" style={{marginLeft: '10px'}}><i class="fas fa-project-diagram"></i> PROJECTS</a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                         <a className="nav-link" href="#extra" style={{marginLeft: '10px'}}><i class="fas fa-certificate"></i> EXTRA</a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                         <a className="nav-link" href="#contactMe" style={{marginLeft: '10px'}}><i class="fas fa-id-badge"></i> Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href='https://drive.google.com/file/d/1LxbQZ9jZYDC0mvkqob1mcXDmulERK7Se/view?usp=sharing' target='_blank' rel='noreferrer' className="mx-2 active" style={{color: 'orange', textDecoration: 'none'}} >
+                        <a href='https://drive.google.com/file/d/1NvD3xYG8c2qXrB5IvxTAyb9fEDvbYdcX/view?usp=sharing' target='_blank' rel='noreferrer' className="mx-2 active" style={{color: 'orange', textDecoration: 'none'}} >
                             <button type="button" className="btn btn-dark btn-md" style={{color: 'black', fontWeight: 'bolder', backgroundColor: '#1b1b1b', borderColor: 'transparent', background: 'orange'}}>My Resume</button>
                         </a>
                     </li>

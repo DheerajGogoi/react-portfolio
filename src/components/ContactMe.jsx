@@ -3,7 +3,7 @@ import * as emailjs from "emailjs-com";
 import { createStyles, makeStyles, Theme } from '@material-ui/core/styles';
 import TextField from '@material-ui/core/TextField';
 import Button from '@material-ui/core/Button';
-import Faq from './Faq';
+import Faq from './Faq'
 
 require('dotenv').config();
 
@@ -16,22 +16,23 @@ function click() {
     const bttn = document.getElementById('button');
 
     document.getElementById('form').addEventListener('submit', function(event) {
-    event.preventDefault();
+        event.preventDefault();
 
-    bttn.value = 'Sending...';
-    alert('Sending, Please Wait');
+        bttn.value = 'Sending...';
+        alert('Sending, Please Wait');
 
-    const serviceID = process.env.REACT_APP_SERVICE_ID;
-    const templateID = process.env.REACT_APP_TEMPLATE_ID;
+        const serviceID = process.env.REACT_APP_SERVICE_ID;
+        const templateID = process.env.REACT_APP_TEMPLATE_ID;
 
-    emailjs.sendForm(serviceID, templateID, this).then(() => {
-        bttn.value = 'Send Email';
-        alert('Sent!');
-        // window.location.reload();
-        // setMsg('SEND');
+        emailjs.sendForm(serviceID, templateID, this).then(() => {
+            bttn.value = 'Send Email';
+            alert('Sent!');
+            document.getElementById("form").reset();
+            // window.location.reload();
+            // setMsg('SEND');
         }, (err) => {
-        bttn.value = 'Send Email';
-        alert(JSON.stringify(err));
+            bttn.value = 'Send Email';
+            alert(JSON.stringify(err));
         });
     });
 }
@@ -41,10 +42,17 @@ function ContactMe(){
 
     const [msg, setMsg] = useState('SEND');
 
+    const [open, setOpen] = React.useState(false);
+    const [hidden, setHidden] = React.useState(false);
+
+    const handleVisibility = () => {
+        setHidden((prevHidden) => !prevHidden);
+    };
+
         return(
             <section className='contact-me-section offset' id='contactMe' style={{borderTop: '2px solid black'}}>
 
-<div className='container contact-me-container' data-aos="fade-up" >
+                <div className='container contact-me-container' data-aos="fade-up" >
                         <p style={{fontSize: '3rem', fontFamily: 'Quicksand', fontWeight: 'bolder'}}>Contact <span style={{color: 'red'}}>Me</span></p>
                             
                         <div className='row'>

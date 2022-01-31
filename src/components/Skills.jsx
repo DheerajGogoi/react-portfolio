@@ -1,5 +1,27 @@
 import React from 'react';
 
+const skillList = [
+    'Java',
+    'C',
+    'C++',
+    'Python',
+    'HTML',
+    'CSS',
+    'Bootstrap',
+    'Javascript',
+    'MongoDB',
+    'Mongoose',
+    'Firebase',
+    'MySQL',
+    'ExpressJs',
+    'ReactJs',
+    'NodeJs',
+    'React Native',
+    'Redux',
+    'Hasura',
+    'GraphQL'
+]
+
 function Skills() {
     return(
         <section className='skills-section offset' id='skills'>
@@ -15,22 +37,15 @@ function Skills() {
 
                         <div className='col-lg-6 col-sm-12' data-aos="fade-up">
                             <div className='skills-wrapper'>
-                                <h2><span className="badge badge-warning">Java</span>
-                                <span className="badge badge-warning">C and C++</span>
-                                <span className="badge badge-warning">Python</span>
-                                <span className="badge badge-warning">HTML</span>
-                                <span className="badge badge-warning">CSS</span>
-                                <span className="badge badge-warning">Bootstrap</span>
-                                <span className="badge badge-warning">Javascript</span>
-                                <span className="badge badge-warning">MongoDB</span>
-                                <span className="badge badge-warning">Mongoose</span>
-                                <span className="badge badge-warning">firebase</span>
-                                <span className="badge badge-warning">MYSQL</span>
-                                <span className="badge badge-warning">ExpressJs</span>
-                                <span className="badge badge-warning">ReactJs</span>
-                                <span className="badge badge-warning">NodeJs</span>
-                                <span className="badge badge-warning">React Native</span>
-                                <span className="badge badge-warning">Machine Learning</span></h2>
+                                <h2>
+                                    {
+                                        skillList.map((value, index) => {
+                                            return (
+                                                <span key={index} className="badge badge-warning">{value}</span>
+                                            )
+                                        })
+                                    }
+                                </h2>
                             </div>
                         </div>
                     </div>

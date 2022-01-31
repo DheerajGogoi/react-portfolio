@@ -102,21 +102,8 @@ function Extra() {
                     <p className='extra-header'>Extra</p>
                     <p className='certificates'>Courses I've taken</p>
                     <div className='row' style={{paddingBottom: '4%'}}>
-
-                        {console.log(courseObjects)}
-
+                        {/* {console.log(courseObjects)} */}
                         {showData(courseObjects)}
-                    
-
-                    </div>
-
-                    <hr color='orange' />
-
-                    <p className='blog-header' data-aos="fade-up">Also check out my Blog Posts !</p>
-                    <div className='blog-container' data-aos='fade-up'>
-                        <div className='work-in-progress'>
-                            Work in progress 🔧🔧🔧
-                        </div>
                     </div>
 
                 </div>
@@ -126,15 +113,3 @@ function Extra() {
 }
 
 export default Extra;
-
-{/* <p className='blog-by' data-aos="fade-up">Check out my most recent blog 📜</p>
-                    <div className='blog-body' data-aos="fade-up">
-                        <h1 className='blog-title'><i class="fas fa-quote-left quote"></i> What is Lorem Ipsum?</h1>
-                        <h1 className='blog-content'>
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
-                            <hr color='orange' />
-
-                            <p className='blog-read' onClick={readMore}>Read More <span>&#8594;</span></p>
-                        </h1>
-                    </div> */}

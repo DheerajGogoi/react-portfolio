@@ -211,7 +211,9 @@ button:focus {
 /* ------- */
 .img-wrapper {
     position: relative;
-  }
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.418);
+    border-radius: 4px;
+}
   
 .image {
   opacity: 1;
@@ -223,17 +225,18 @@ button:focus {
 }
 
 .img-middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+    width: 85%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 .img-wrapper:hover .image {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 
 .img-wrapper:hover .img-middle {
@@ -268,6 +271,38 @@ button:focus {
     font-size: 1.5rem;
     font-weight: bolder;
 }
+
+.tool-badge{
+    font-weight: bolder;
+    font-family: 'Quicksand';
+    margin-right: 7px;
+    font-size: 0.8rem;
+    background-color: orange;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 7px;
+}
+.tool-badge::selection{
+    background-color: #1b1b1b;
+    color: orange;
+}
+/* .tool-badge:hover{
+    background-color: rgb(224, 146, 0);
+} */
+.proj-title{
+    font-family: 'Quicksand';
+    color: black;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.proj-body{
+    font-family: 'Quicksand';
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+
 /* PROJECTS END*/
 
 /* EXTRA START */
@@ -558,6 +593,14 @@ font-family: 'Yusei Magic', sans-serif; */
     }
 }
 
+.my-speed-dial{
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    cursor: pointer;
+    z-index: 9999
+}
+
 @media only screen and (max-width: 790px){
     .timeline-class{
         display: none;
@@ -574,7 +617,7 @@ font-family: 'Yusei Magic', sans-serif; */
     .my-image{
         padding-top: 0%;
     }
-
+}
 @media only screen and (max-width: 790px){
     .home-section{
         background: #1b1b1b;
@@ -597,5 +640,12 @@ font-family: 'Yusei Magic', sans-serif; */
 
     .home-section{
         height: 89.5vh;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .my-speed-dial{
+        bottom: 3rem;
+        right: 2rem;
     }
 }

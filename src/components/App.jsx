@@ -20,7 +20,6 @@ function App() {
             <AboutMe />
             <Skills />
             <Projects />
-            <Extra />
             <ContactMe />
             <BottomBar />
         </div>

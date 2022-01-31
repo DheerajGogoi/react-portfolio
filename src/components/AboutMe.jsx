@@ -2,9 +2,8 @@ import React from 'react';
 import Typical from 'react-typical';
 import MyTimeline from './MyTimeline';
 import dheeraj1 from './img-comp/Dheeraj-1.jpg'
+import dheeraj2 from './img-comp/new-about.jpg'
 import Button from '@material-ui/core/Button';
-
-
 
 
 function openLinkedin() {
@@ -22,7 +21,7 @@ function AboutMe() {
                 <div className='row'>
                     <div className='col-lg-6 col-md-6 col-sm-12' data-aos='fade-up'>
                         <center>
-                            <img className='img-fluid my-photo-2' src={dheeraj1} alt='' />
+                            <img className='img-fluid my-photo-2' src={dheeraj2} alt='' />
                         </center>
                     </div>
                     <div className='col-lg-6 col-md-6 col-sm-12' data-aos='fade-up'>
@@ -34,9 +33,7 @@ function AboutMe() {
                             loop={Infinity}
                             wrapper="b"
                             steps={[
-                                'I love Machine Learning.',
-                                1000,
-                                'I love Android Development.',
+                                'I love App Development.',
                                 1000,
                                 'I love Web Development.',
                                 1000,
@@ -46,7 +43,7 @@ function AboutMe() {
                                 1000,
                             ]}
                         /></p>
-                        <p className='my-info'>I am a Computer Science and Engineering (B.Tech) undergraduate pursuing from Tezpur University, currently in my 2nd semester. I am a full stack MERN developer, and the website you're currently seeing is made using the following technology. My areas of interest include Machine learning, Data Science, Android Development and Web development. I have several other projects that are made using various other tools and are displayed in the Projects section.
+                        <p className='my-info'>I am a Computer Science and Engineering (B.Tech) undergraduate pursuing from Tezpur University, currently in my 2nd Year. I am a full stack MERN developer, and the website you're currently seeing is made using the following technology. My areas of interest include App Development, Web development, Photo Editing, Graphic Designing. I have several other projects that are made using various other tools and are displayed in the Projects section.
                         <br /><br />
                         My details are displayed below, you can mail, call, SMS or WhatsApp me if needed. Interested ones can check out my resume by clicking the My Resume button.</p>
                         <div className='row my-3'>
@@ -65,7 +62,7 @@ function AboutMe() {
                             <Button id='button' type='submit' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">Contact Me</Button>
                         </a>
 
-                        <a href='https://drive.google.com/file/d/1zjvRUsWEpjnby7cKDt5k0uUEcPZrsay4/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
+                        <a href='https://drive.google.com/file/d/1NvD3xYG8c2qXrB5IvxTAyb9fEDvbYdcX/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
                             <Button id='button' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">My Resume</Button>
                         </a>
 
