@@ -30,9 +30,10 @@ function Skills() {
                     <p className='my-skills'>My <span style={{color: 'orange'}}>Skills</span></p>
                     <div className='row'>
                         <div className='col-lg-6 col-sm-12'>
-                        <p className='my-skills-info' style={{fontFamily: 'Quicksand'}}>I've been into coding and UI desiging since past 1 year and have gained some experience over various tools and technologies. I try to learn new things every day and so thus I make my hands dirty on each and every tech that attracts my attention towards it. My favourite tool for wireframing and UI designing is Adobe XD. Although I sometimes use Canva.com site for UI designing. I mainly use Eclipse, VS Code and Jupyter Notebook for coding work. I have some good work exprerience with Adobe Lightroom, which I use to edit almost all of my pictures making them more attractive.
+                        <p className='my-skills-info' style={{fontFamily: 'Quicksand'}}>Since I started coding and UI design 2 years ago, I've gotten some experience with a variety of tools and technologies. Every day, I try to learn something new, and as a result, I get my hands filthy with any technology that catches my eye. Adobe XD is my go-to tool for wireframing and UI design. Although I do occasionally use Canva for UI design. For coding, I mostly use Eclipse, VS Code, and Jupyter Notebook. I have a lot of skilled experience with Adobe Lightroom, which I use to improve the look of practically all of my photos.
                         <br />
-                        I have listed some of the tech and tools that I have worked with.</p>
+                        <br />
+                        I've mentioned some of the technology and tools that I've used.</p>
                         </div>
 
                         <div className='col-lg-6 col-sm-12' data-aos="fade-up">

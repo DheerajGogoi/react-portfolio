@@ -15,7 +15,6 @@ const actions = [
     { icon: <FacebookIcon style={{color: '#0077D1'}} onClick={()=>window.open('https://www.facebook.com/dheeraj.gogoi.1004')}/>, name: 'Facebook' },
     { icon: <LinkedInIcon style={{color: '#0083D2'}} onClick={() => window.open('https://bit.ly/3hqvX1V')} />, name: 'LinkedIn' },
     { icon: <YouTubeIcon style={{color: 'red'}} onClick={() => window.open('https://www.youtube.com/channel/UCw8x8IOLVG1cCHS3z-pVtoQ')} />, name: 'Youtube' },
-    { icon: <TwitterIcon style={{color: 'skyblue'}} />, name: 'Twitter' },
     { icon: <MailIcon style={{color: 'black'}} onClick={() => window.open('mailto:dheerajgogoi2@gmail.com')} />, name: 'Mail' },
 ];
 

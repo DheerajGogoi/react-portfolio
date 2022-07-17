@@ -41,7 +41,7 @@ export default function SimpleAccordion() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography className={classes.desc}>
-            I am available for freelance projects. If you have an idea and wanna build something, than just drop me a message and I'll be there to take the project. We can collaborate for a project as well, where me and you both parties can develop your project together. So, what are you waiting for ? let's get to work.
+            I am open for work as a freelancer. If you have an idea and want to make anything, send me a note and I'll be happy to help you. We can also collaborate on a project, where both you and I can work together to build your project. So, how long are you going to wait? Let's get started.
           </Typography>
         </AccordionDetails>
       </Accordion>

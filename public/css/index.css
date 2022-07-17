@@ -213,12 +213,14 @@ button:focus {
     position: relative;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.418);
     border-radius: 4px;
+    width: 300px;
+    margin: auto;
 }
   
 .image {
   opacity: 1;
   display: block;
-  width: 100%;
+  width: 300px;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -304,6 +306,76 @@ button:focus {
 }
 
 /* PROJECTS END*/
+
+/* EXPERIENCE START */
+.experience-bg{
+    background: #1b1b1b;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    font-family: 'Quicksand';
+}
+
+.my-experience{
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: 'Quicksand';
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.exp-card{
+    /* border: 2px solid black; */
+    /* width: 350px; */
+    padding: 10px;
+    transition: 0.3s ease;
+    margin-bottom: 4rem;
+    display: inline-block;
+}
+
+.exp-card:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.548);
+    transform: translate3d(0px, -5px, 0px);
+}
+
+.exp-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.exp-logo{
+    width: 100px;
+}
+
+.exp-about{
+    margin-left: 1rem;
+    color: white;
+    align-items: center;
+}
+
+.exp-pos{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.exp-link{
+    color: #ec9f05;
+    text-transform: none;
+}
+.exp-link:hover{
+    color: #ec9f05;
+}
+
+.exp-desc, .exp-pos-about, .exp-duration{
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgb(231, 231, 231);
+    margin-bottom: 5px;
+}
+
+
+/* EXPERIENCE END */
+
+
 
 /* EXTRA START */
 .extra-bg{

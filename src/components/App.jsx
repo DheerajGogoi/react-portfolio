@@ -8,18 +8,18 @@ import Projects from './Projects';
 import Skills from './Skills';
 import ContactMe from './ContactMe';
 import BottomBar from './BottomBar'
-import Extra from './Extra';
-// import ParticleBg from './ParticleBg';
+import Experience from './Experience';
 
 function App() {
 
-  return (
+    return (
         <div>
             <Navbar />
             <Home />
             <AboutMe />
             <Skills />
             <Projects />
+            <Experience />
             <ContactMe />
             <BottomBar />
         </div>

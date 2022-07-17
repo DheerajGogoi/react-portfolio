@@ -33,9 +33,9 @@ function AboutMe() {
                             loop={Infinity}
                             wrapper="b"
                             steps={[
-                                'I love App Development.',
-                                1000,
                                 'I love Web Development.',
+                                1000,
+                                'I love App Development.',
                                 1000,
                                 'I love Photo Editing.',
                                 1000,
@@ -43,9 +43,9 @@ function AboutMe() {
                                 1000,
                             ]}
                         /></p>
-                        <p className='my-info'>I am a Computer Science and Engineering (B.Tech) undergraduate pursuing from Tezpur University, currently in my 2nd Year. I am a full stack MERN developer, and the website you're currently seeing is made using the following technology. My areas of interest include App Development, Web development, Photo Editing, Graphic Designing. I have several other projects that are made using various other tools and are displayed in the Projects section.
+                        <p className='my-info'>I am currently in my 3rd year as a Computer Science and Engineering (B.Tech) undergraduate at Tezpur University. I'm a full stack MERN developer, and the website you're looking at right now was built with the following technology. Full Stack Development, App Development, Photo Editing, and Graphic Design are some of my areas of interest. In the Projects area, I have a number of other projects that were created with a variety of different technologies.
                         <br /><br />
-                        My details are displayed below, you can mail, call, SMS or WhatsApp me if needed. Interested ones can check out my resume by clicking the My Resume button.</p>
+                        My contact information is included below; you can contact me via email, phone, SMS, or WhatsApp if necessary. Those who are interested can view my résumé by clicking the 'My Resume' button.</p>
                         <div className='row my-3'>
                             <div className='col'>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Birthday :</span> 30&apos;th January, 2003</p>
@@ -62,7 +62,7 @@ function AboutMe() {
                             <Button id='button' type='submit' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">Contact Me</Button>
                         </a>
 
-                        <a href='https://drive.google.com/file/d/1NvD3xYG8c2qXrB5IvxTAyb9fEDvbYdcX/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
+                        <a href='https://drive.google.com/file/d/15P5i3FBbI0aA_NTtdH8bCWcrF-JHWPK3/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
                             <Button id='button' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">My Resume</Button>
                         </a>
 
