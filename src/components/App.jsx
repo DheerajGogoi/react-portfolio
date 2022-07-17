@@ -1,6 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
 import Navbar from './Navbar';
 import Home from './Home';
 import AboutMe from './AboutMe';

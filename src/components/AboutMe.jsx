@@ -1,7 +1,5 @@
 import React from 'react';
 import Typical from 'react-typical';
-import MyTimeline from './MyTimeline';
-import dheeraj1 from './img-comp/Dheeraj-1.jpg'
 import dheeraj2 from './img-comp/new-about.jpg'
 import Button from '@material-ui/core/Button';
 

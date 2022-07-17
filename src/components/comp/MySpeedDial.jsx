@@ -5,7 +5,6 @@ import SpeedDialAction from '@material-ui/lab/SpeedDialAction';
 import FacebookIcon from '@material-ui/icons/Facebook';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import YouTubeIcon from '@material-ui/icons/YouTube';
-import TwitterIcon from '@material-ui/icons/Twitter';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
 import ContactsIcon from '@material-ui/icons/Contacts';

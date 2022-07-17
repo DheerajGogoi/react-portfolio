@@ -1,27 +1,6 @@
 import React from 'react';
-import { createMuiTheme, createStyles, withStyles, makeStyles, Theme, ThemeProvider, } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import { orange } from '@material-ui/core/colors';
 import { proj_list } from './proj_list';
-
-function learnMore(event) {
-    console.log(event);
-    const projectName = event.target.id;
-    console.log(projectName);
-    if (projectName === 'portfolio-web') {
-        window.open('https://github.com/DheerajGogoi/react-portfolio');
-    } else if (projectName === 'todo'){
-        window.open('https://github.com/DheerajGogoi/todolist-app-java-netbeans.git');
-    } else if (projectName === 'weather'){
-        window.open('https://github.com/DheerajGogoi/my-getweather.git');
-    } else if (projectName === 'covid-tracker'){
-        window.open('https://github.com/DheerajGogoi/covid-tracker-app.git');
-    } else if (projectName === 'school'){
-        window.open('https://github.com/DheerajGogoi/school-management-system.git');
-    } else {
-
-    }
-}
 
 function Projects() {
     return(
@@ -32,8 +11,6 @@ function Projects() {
                 </p>
 
                 <div className="row">
-                
-                {/* COMPONENT TO BE RENDERED START */}
 
                     {
                         proj_list.map(item => {

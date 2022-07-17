@@ -5,27 +5,6 @@ import dheeraj21 from './img-comp/Dheeraj21.png';
 require('dotenv').config();
 
 function Home() {
-    
-    const [open, setOpen] = React.useState(false);
-    const [hidden, setHidden] = React.useState(false);
-
-    const handleVisibility = () => {
-        setHidden((prevHidden) => !prevHidden);
-    };
-
-    const handleOpen = () => {
-        setOpen(true);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
-
-    // {
-    //     position: 'absolute',
-    //     bottom: theme.spacing(2),
-    //     right: theme.spacing(2),
-    //   }
 
     return(
         <section className='home-section offset' id='home'>
