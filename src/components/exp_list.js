@@ -7,7 +7,7 @@ exports.exp_list = [
         logo: "./img/daas.jpg",
         start: "October 2021",
         end: "Present",
-        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        about: "Working as a freelancer contributing to both frontend and backend projects. Constantly dealing with US clients, discussing about new strategies to build more efficient applications."
 
     },
     {
@@ -18,7 +18,7 @@ exports.exp_list = [
         logo: "./img/weadmit.png",
         start: "October 2021",
         end: "March 2022",
-        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        about: "Mainly worked on ReactJS and built various components and features within the app that boosted the application performance by 10%."
 
     },
     {
@@ -29,7 +29,7 @@ exports.exp_list = [
         logo: "./img/andwemet.png",
         start: "July 2021",
         end: "September 2021",
-        about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy."
+        about: "Contributed to both frontend and backend. Modified APIs to minimize network traffic and built fresh fontend for user's profile."
 
     }
 ]
