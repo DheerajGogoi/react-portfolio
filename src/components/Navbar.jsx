@@ -28,7 +28,7 @@ function Navbar() {
                         <a className="nav-link" href="#contactMe" style={{marginLeft: '10px'}}><i class="fas fa-id-badge"></i> Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a href='https://drive.google.com/file/d/15P5i3FBbI0aA_NTtdH8bCWcrF-JHWPK3/view?usp=sharing' target='_blank' rel='noreferrer' className="mx-2 active" style={{color: 'orange', textDecoration: 'none'}} >
+                        <a href='https://drive.google.com/file/d/1usjEuHBV5LGfnbeU2Kdlj3iueIFuFB6G/view?usp=sharing' target='_blank' rel='noreferrer' className="mx-2 active" style={{color: 'orange', textDecoration: 'none'}} >
                             <button type="button" className="btn btn-dark btn-md" style={{color: 'black', fontWeight: 'bolder', backgroundColor: '#1b1b1b', borderColor: 'transparent', background: 'orange'}}>My Resume</button>
                         </a>
                     </li>

@@ -60,7 +60,7 @@ function AboutMe() {
                             <Button id='button' type='submit' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">Contact Me</Button>
                         </a>
 
-                        <a href='https://drive.google.com/file/d/15P5i3FBbI0aA_NTtdH8bCWcrF-JHWPK3/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
+                        <a href='https://drive.google.com/file/d/1usjEuHBV5LGfnbeU2Kdlj3iueIFuFB6G/view?usp=sharing' target='_blank' rel='noreferrer' class="mx-2 active" style={{color: 'orange', textDecoration: 'none'}}>
                             <Button id='button' style={{background: 'black', color: 'orange', fontFamily: 'Quicksand', paddingTop: '1.4%', paddingBottom: '1.4%', textTransform: 'none', backgroundColor: '#1b1b1b'}} variant="contained" color="secondary">My Resume</Button>
                         </a>
 
