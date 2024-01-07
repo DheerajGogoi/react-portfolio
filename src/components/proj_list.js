@@ -46,7 +46,6 @@ exports.proj_list = [
         desc: "A portfolio website made using MERN Stack. Visitors can send their responses in the 'Contact Me' section.",
         tools: [
             'React',
-            'Firebase'
         ],
         github: 'https://github.com/DheerajGogoi/react-portfolio',
         link: "https://dheerajgogoi.netlify.app",

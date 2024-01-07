@@ -41,9 +41,9 @@ function AboutMe() {
                                 1000,
                             ]}
                         /></p>
-                        <p className='my-info'>I am currently in my 3rd year as a Computer Science and Engineering (B.Tech) undergraduate at Tezpur University. I'm a full stack MERN developer, and the website you're looking at right now was built with the following technology. Full Stack Development, App Development, Photo Editing, and Graphic Design are some of my areas of interest. In the Projects area, I have a number of other projects that were created with a variety of different technologies.
+                        <p className='my-info'>I am currently in my 4th year as a Computer Science and Engineering (B.Tech) undergraduate at Tezpur University. I'm a full stack MERN developer, and the website you're looking at right now was built with the following technology. Full Stack Development, App Development, Photo Editing, and Graphic Design are some of my areas of interest. In the Projects section, I have a number of other projects that were created with a variety of different technologies.
                         <br /><br />
-                        My contact information is included below; you can contact me via email, phone, SMS, or WhatsApp if necessary. Those who are interested can view my résumé by clicking the 'My Resume' button.</p>
+                        My contact information is included below; you can contact me via email, phone, SMS, or WhatsApp if necessary. Interested onces can view my résumé by clicking the 'My Resume' button.</p>
                         <div className='row my-3'>
                             <div className='col'>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Birthday :</span> 30&apos;th January, 2003</p>

@@ -8,12 +8,13 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import MailIcon from '@material-ui/icons/Mail';
 import ContactsIcon from '@material-ui/icons/Contacts';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 const actions = [
     { icon: <GitHubIcon style={{color: 'purple'}} onClick={() => window.open('https://github.com/DheerajGogoi')} />, name: 'Github' },
     { icon: <FacebookIcon style={{color: '#0077D1'}} onClick={()=>window.open('https://www.facebook.com/dheeraj.gogoi.1004')}/>, name: 'Facebook' },
+    { icon: <InstagramIcon style={{color: '#bc2a8d'}} onClick={()=>window.open('https://www.instagram.com/dheeraj_gogoi_')}/>, name: 'Facebook' },
     { icon: <LinkedInIcon style={{color: '#0083D2'}} onClick={() => window.open('https://bit.ly/3hqvX1V')} />, name: 'LinkedIn' },
-    { icon: <YouTubeIcon style={{color: 'red'}} onClick={() => window.open('https://www.youtube.com/channel/UCw8x8IOLVG1cCHS3z-pVtoQ')} />, name: 'Youtube' },
     { icon: <MailIcon style={{color: 'black'}} onClick={() => window.open('mailto:dheerajgogoi2@gmail.com')} />, name: 'Mail' },
 ];
 
@@ -40,7 +41,6 @@ export default function MySpeedDial(){
                 onClose={handleClose}
                 onOpen={handleOpen}
                 open={open}
-                
             >
                 {
                     actions.map((action) => (
