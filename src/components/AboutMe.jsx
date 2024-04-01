@@ -52,7 +52,7 @@ function AboutMe() {
                             </div>
                             <div className='col'>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Degree :</span> B.Tech - Computer Science and Engineering (Pursuing)</p>
-                                <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Email :</span> dheerajgogi2@gmail.com</p>
+                                <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Email :</span> dheerajgogoi2@gmail.com</p>
                                 <p style={{fontFamily: 'Source Serif Pro'}}><span className='b'>Linkedin :</span> <span onClick={openLinkedin} style={{cursor: 'pointer'}}>https://bit.ly/3hqvX1V</span></p>
                             </div>
                         </div>

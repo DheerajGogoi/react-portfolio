@@ -80,7 +80,7 @@ function ContactMe(){
     
                                         <div className='row'>
                                             <div className='col' style={{maxWidth: '20%', padding: '0'}}><span><i className="far fa-envelope info-icons"></i></span></div>
-                                            <div className='col' style={{fontFamily: 'Quicksand', textAlign: 'right'}}>dheerajgogi2@gmail.com</div>
+                                            <div className='col' style={{fontFamily: 'Quicksand', textAlign: 'right'}}>dheerajgogoi2@gmail.com</div>
                                         </div>
     
                                         <br />
